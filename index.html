@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MangaShop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="indir.png" alt="">
+        </div>
+            <nav class="navbar">
+            <a href="home">Home</a>
+            <a href="aboutus">About Us</a>
+            <a href="products">Products</a>
+            <a href="review">Reviews</a>
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+        </div>
+    </section>  
+    <section class="about" id="about">
+        <h2 class="heading"><span>About Us</span></h2>
+        <hr>
+        <div class="div1">
+        <img src="data:image/jpeg;base64,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" alt="">
+        <div class="div2">
+            <p>It is a cliché, but we don’t realise what we value until its gone. This is true of our store! The outpouring of grief and the stories that were shared, reminded us all that a bookshop holds an unusual position in people’s lives, books are part of how we see ourselves and express ourselves, they are also how we understand others – we have an emotional response when we see someone reading a book that we love..</p>
+            <a href="#">For More Informations.. </a>
+        </div>
+        </div>
+    </section>
+    <section class="icons-container">
+        <div class="container">
+            <div class="info">
+                <img src="indir (1).png" alt="">
+                <h4>  Free Shipping</h4>
+            </div>
+            <div class="info">
+                <img src="indir (2).png" alt="">
+                <h4>  Free   Returns</h4>
+            </div>
+            <div class="info">
+                <img src="indir (3).png" alt="">
+                <h4>Secure Payment</h4>
+            </div>
+        </div>
+    </section>
+    <section class="products" id="products">
+        <h2>Products</h2>
+        <hr>
+        <div class="product">
+            <div class="box-container">
+                <div class="box">
+                    <span class="discount">-10%</span>
+                    <div class="image">
+                            <img src="https://media2.hugendubel.de/shop/coverscans/455/45589436_9783985955473_xl.jpg?width=150" alt="">
+                        <div class="add">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="explain">
+                        <h4>12.99.-Eur <span>15.99.-Eur</span></h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <span class="discount">-10%</span>
+                    <div class="image">
+                            <img src="https://media2.hugendubel.de/shop/coverscans/458/45803715_9783463000312_xl.jpg?width=150" alt="">
+                        <div class="add">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="explain">
+                        <h4>18.99.-Eur <span>22.99.-Eur</span></h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <span class="discount">-5%</span>
+                    <div class="image">
+                            <img src="https://media2.hugendubel.de/shop/coverscans/458/45829111_9783492707626_xl.jpg?width=150" alt="">
+                        <div class="add">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="explain">
+                        <h4>25.99.-Eur <span>29.99.-Eur</span></h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <span class="discount">-10%</span>
+                    <div class="image">
+                            <img src="https://media2.hugendubel.de/shop/coverscans/458/45833486_9783743217997_xl.jpg?width=150" alt="">
+                        <div class="add">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="explain">
+                        <h4>15.99.-Eur <span>18.99.-Eur</span></h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <span class="discount">-10%</span>
+                    <div class="image">
+                            <img src="https://media2.hugendubel.de/shop/coverscans/458/45863902_9783426530245_xl.jpg?width=150" alt="">
+                        <div class="add">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="explain">
+                        <h4>17.99.-Eur <span>20.99.-Eur</span></h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <span class="discount">-10%</span>
+                    <div class="image">
+                            <img src="https://media2.hugendubel.de/shop/coverscans/458/45803796_9783498003401_xl.jpg?width=150" alt="">
+                        <div class="add">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="explain">
+                        <h4>12.99.-Eur <span>15.99.-Eur</span></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review" id="review">
+        <div class="div3">
+        <h2>Reviews</h2>
+        <hr>
+        </div>
+        <div class="review-container">
+            <div class="contain">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nemo aperiam perspiciatis repellat cumque adipisci est cum at aut quis ipsum, rerum soluta debitis, maxime quos eius, perferendis alias! Nisi?</p>
+                <div class="user">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAADPCAMAAAAXkBfbAAAAeFBMVEX///8AAACioqKUlJQYGBiysrL29vampqZ+fn42Njb8/PwSEhJ4eHglJSVAQECGhoby8vLq6urT09Pe3t6Ojo5YWFg7OztjY2MtLS3FxcW4uLji4uKxsbGCgoJERERzc3PV1dVLS0tUVFS/v79paWkgICAjIyOamprY2E5IAAAHwUlEQVR4nO2d6VrqMBCGaVWQRVlF5aBQRb3/Ozy40kKa+SaTphOefL9tyGvbdDJbOp2SpuvRcphFoWH/urftSDXIH9oG4eomH4iQV20DuGkluMl3bU/eVXddR+RpJG+xScOpG3Lb85bJBXrQ9qSlcni8o32Xf/XCRo50xS7rissc8fr1Jybyuu35+lDOY162PV8femAh/2t7un70j8N8Fo92lvU4zE9HF9/nUej+aNobDnNRvXbNubZNHX1hl5xrqxtI/te9NVUtKdYidlm59KKpGfrXRWXiQ85OOjEnZtVKzImZUGJOzKqVmBMzocScmFUrMSdmQok5MatWYk7MhBJzYlatxJyYCSXmxKxaiTkxE0rMidmgyWsvgF6BtNVQzJNNFkjPMyXM81DEn6Kyn8IwT0IiZ9mjBubjnKyGNVTAHDyb/9U68UXlbxtiDp7nfW2deHeWl1LEGmLuBUbO7ujZP+6aZQ6eDXuPzL+bDxtknoVmRo3CXnPMwYsY5jDEOMsaYg78QkOP9o/mz03ZYWGLkmT1n76YO8HM7SwrXOsgfTN3Zrv3EMBv93Z7JCjzXt0AahLYhfkMlJgT87kqMSdmnZpMJ8IRomKe57vvjc7D6EpgmsbDPL2oznWD77uOFAvz1uCB3DgabHEwT2p8roQ/uEZRMH+Yiff6cBkuAuZ/tuZPrMLnH+lnzi3Ee+34I2pn7hZ25Cx7Yo+pnBkJC7J6GXxKN/MjgJxll/3r1dnkGRCvckUj3CLVzDxmIO+1QMdVzDziIWdZH7zVepldHMtYOxq1zG6+dKhnnFbmayfk7AZZv5UyM5evg5Aol07m+k0FKWCrpZJZksZxSQ+vkVkW3adNUSbz4+Lahz62lt8Q5qHRN5rFPPPXxvil9qsykOYzkDFNDrPfbKk6F96gJ4Qml24Gs+90z/pPqTC2T32jGczPspmcaFz/UzJo6nOFM/vvEGn5sTfJuJZ/JpPZf06cZUeAOQtq9OyN2X+q1NbyazeSgb0xX4n4TLIFXy7oy+tF7KPbfJ9t6+tWMjCxjWas2747+45sPyZqhE5E7xjMvpNc7RE2yX+YKGDh2GEcN6R4YpJP9NYfs0/j852Yl2gR8/c+7zW4Gi37cj2P6Z295NNIeMU07p+/9CpgJoZWyyxYMQti6HNkpijUMguMEqrWUi2zYLdODX2GzGSsTi2zu3lPRurOj5nOtVDL7FySSifKqWXuOiID1StqmR1te+QABa3Mzt43oJpWKbPAZUBvX5QyC3YYdDakUmbnmDvyRitl3tUAISLTK5QyvwiYyQ90YlbDLOmFEiuzxOsZ6/ss8HrSx3cpZRZ4lekMMaXMgkY/3vOGgqlwZqaTe7UyOwfdrZG/b2llPjkEElTMe8n9btIl1QAqwtHLvF/ImIHQuylWiaKZmevXRwsyVDMzPQcrcFjVzMxkA/Qwe93Mixo6o+DzU3Uzsxz7cF2wbmbWPhoupFPOzFi5qSzPg5QzMzbS+JjamTtoaQCji4V65gmWtc/p5qCeuTNFcrlZfeWqA2pkRrJpePX9/cq1tw1NWyQgywIuff7SUf9KfMEPJ8B9ADgKSjoJDG1GNgFJiz8TXTw9PVULycrjbHb4ogPErohe3UdiOxgvkcmSyZr36H4ATDhgNeFxKNTLyUGpCNuQPCGgJKjEH6p7/lPBh6ZmTPW45XTiRfN7gfSCgxwcjMSmjdoXsNZJOKDBanbbp8c71tY2XkFcTL8aB00YbZGH1llV5ZBAawsVUBWGHLOHmbc+wl9qfh5D/dM5oJ4a+8EAFa34BYQX8ANeeGPuUrugF3ROg7VbrfU1uL8ibw7KPCHd8OB9mAniz8se5jApeMPWMNPBRMR0GLw69iY5qMiRhjS8GLeZmXbYkR/m7uPCU5X122hFmnpzzm8ZmQEfpfWh6z6Ob50RjboZrYjHfIbnrZiYAW+dZcc3yQt3NpseLuyLWneWb4pbo6oDGZiNX/l+ZYz6Vlcr3+WnVezcrfdpdUE+ZTZasOBOXtBoB9WTS1tjgtmYkopZXFtR6wJYDs1P7czGZGvMrhbVs3N0y27kbGU2msVYB0pJLitTN9zn28ZszAZYQ8MGPFglyy6ZS5mF2bgEYeHvAKtXWVQPD5jZGCLG3FOiPg0u4rnva5mNKU2gu8tflypUuOfRwmx8IbfYmMEPe2N64mqYjeYqGiEMQnkkrAGojdnorUKHDX5246c4LcqNzEYHJ/zK+G7NhYnxvTIxmyY9hD/8/lv5QMLshhrmgWkv9I7bOoG/zb9i+P5PmLsmH9oD48kpQhAahE/xmHli2g1xkF1LfcXCo3lV5oVxxkvOzkXUCE4iPDxfZd6Z7jLPmg22hzwW1bCljtkk2Fv/rbDnc5blj5kVC+20Y4R9CzYgKGaWIdsJfjZ8WfAiRjCzT50JfrDyQXAs2M7MP36ltWWbMVkrMy8760stWWGfghduG7PLGVKO1VM+BOdVWZg5uRJ/ivvZZmxUypqvr1rR2tX2LOnKDTkG1TE3ejZ1y6phdjv3LxKZmTkpjPHJyLxte1bNysTM8ZvGKAMzKyYQo06Yh2ePfJIIyw7mRqijIA3H2xetqoEWlrcvXpXjpszYdbQqhVqY3r6INf+tW+TVMkWu9d3+TR47n6KuRv8BlBeQHaVsZxwAAAAASUVORK5CYII=" alt="">
+                    <div class="user-info">
+                        <h4>Albert Ertan</h4>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+            <div class="contain">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nemo aperiam perspiciatis repellat cumque adipisci est cum at aut quis ipsum, rerum soluta debitis, maxime quos eius, perferendis alias! Nisi?</p>
+                <div class="user">
+                    <img src="data:image/png;base64,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" alt="">
+                    <div class="user-info">
+                        <h4>Gloria Happysun</h4>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+            <div class="contain">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nemo aperiam perspiciatis repellat cumque adipisci est cum at aut quis ipsum, rerum soluta debitis, maxime quos eius, perferendis alias! Nisi?</p>
+                <div class="user">
+                    <img src="data:image/png;base64,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" alt="">
+                    <div class="user-info">
+                        <h4>Alija Shocker</h4>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="footer">
+            <div class="footer-container">
+                <h4>Links</h4>
+                <a href="#"> Home </a>
+                <a href="#"> About Us </a>
+                <a href="#"> Products </a>
+                <a href="#"> Reviews </a>
+            </div>
+            <div class="footer-container">
+                <h4>Countries</h4>
+                <a href="#">Sweden</a>
+                <a href="#">Germany</a>
+                <a href="#">Austria</a>
+                <a href="#">Switzerland</a>
+            </div>
+            <div class="footer-container">
+                <h4>Contact Informations</h4>
+                <a href="#">+123-456-789</a>
+                <a href="#">example@gmail.com</a>
+                <a href="#">Stockholm</a>
+            </div>
+        </section>
+    </footer>
+    <hr>
+    <div class="credit">
+        <div class="div4">
+        <p> Created by Udemiq</p>
+        <hr>
+        <p> All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: ;
+    text-decoration: none;
+    text-transform: none;
+    transition: .5s linear;
+    color: black;
+}  
+:root{
+    --red: rgba(130, 5, 5, .75);
+
+}
+html{
+    font-size: 87.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    overflow-x: hidden;
+    background-color: rgba(130, 130, 130, .125);
+}
+section{
+    padding: 2.5rem 12.5%;
+}
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(250, 250, 250, .75);
+    padding: 2.5rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+    box-shadow: 0 1.25rem 1.25rem 0 rgba(5, 5, 5, .25);
+    font-weight: bold;
+}
+.logo img{
+    width: 187.5px;
+    height: 93.75px;
+    margin-right: .625rem;
+}
+.logo img:hover{
+    scale: 1.25;
+    cursor: pointer;
+    transition: .5s linear;
+}
+.navbar a{
+    margin: 0 .625rem;
+}
+.navbar a:hover{
+    color: var(--red);
+    transition: .5s linear;
+}
+.icons a{
+    font-size: 1.25rem;
+    margin-left: .625rem;
+}
+.icons a:hover{
+    color: var(--red);
+    scale: 1.25;
+}
+.section{
+    padding: 2.5rem 12.5%;
+}
+.home{
+    display: flex;
+    align-items: center;
+    background: url(https://images-production.bookshop.org/spree/promo_banner_slides/desktop_images/293/original/MaxMidknights_BkShp_BanAd_2048x600_Fa23_5P_NoSword.jpg?1704210577);
+    background-size: cover;
+    min-height: 375px;
+}
+.home:hover{
+    opacity: .875;
+    cursor: pointer;
+    scale: .875;
+    transition: .5s linear;
+}
+.about{
+    margin: 25px 25px;
+    padding: 12.5px 12.5px;
+}
+.heading{
+    text-align: center;
+    margin: 2.5px 0;
+    padding: 1.25px 0;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    margin: 12.5px 0;
+    padding: 6.25px 0;
+}
+.div1 img{
+    width: 375px;
+    height: 250px;
+    opacity: .875;
+    margin: 0 auto;
+}
+.div2 p{
+    padding: 1.25rem 0;
+    line-height: 1.25;
+    }    
+.div2 a{
+    color: var(--red);
+}
+.icons-container{
+    align-items: center;
+    background-color: rgba(250, 250, 250, .5);
+    background-size: cover;
+    height: 225px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -2.5rem;
+    margin-left: 5rem;
+    margin-top: -1.25rem;
+    margin-bottom: 2.5rem;
+    padding: 0 50px;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: .625rem auto;
+}
+.info img{
+    width: 62.5%;
+    height: 62.5%;
+    opacity: .875;
+    border-radius: 12.5px;
+}
+.info h4{
+    margin: .9rem .9rem;
+}
+.products h2{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.box{
+    flex: 1.25 1.25 25;
+    box-shadow: 0 1.25rem 1.25rem 0 rgba(5, 5, 5, .25);
+    position: relative;
+    border-radius: .3125rem;
+    margin: 1.25rem;
+}
+.discount{
+    position: absolute;
+    top: .875rem;
+    left: .875rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--red);
+    z-index: 1;
+}
+.box .image{
+    position: relative;
+    text-align: center;
+    padding-top: 2.5rem;
+    overflow: hidden;
+}
+.box .image img{
+    width: 250px;
+    height: 25rem;
+}
+.add a{
+    font-size: 1.5rem;
+}
+.box:hover{
+    opacity: .875;
+    scale: 1.125;
+    transition: .5s linear;
+}
+.add a:hover{
+    color: var(--red);
+    scale: 1.25;
+    transition: .5s linear;
+}
+.explain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.explain h4{
+    color: var(--red);
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+.explain span{
+    font-size: 1.125rem;
+    color: #414141;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+.review{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 25px 25px;
+    padding: 1.25px 12.5px;
+    align-items: center;
+}
+.div3{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+    padding: 0 0;
+}
+.review-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+.contain{
+    width: 30%;
+    box-shadow: 0 1.25rem 1.25rem 0 rgba(5, 5, 5, .25);
+    padding: 3.75rem 2.5rem;
+}
+.stars i{
+    font-size: 1.5rem;
+}
+.contain p{
+    color: #999;
+    font-size: 1rem;
+    line-height: 1.25;
+    padding: 1.5rem;
+}
+.contain .user{
+    display: flex;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+.contain .fa-quote-right{
+    font-size: 5rem;
+    color: #0a0a0a;
+    opacity: .125;
+    margin-left: 250px;
+}
+.contain .user img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: .5rem;
+    object-fit: cover;
+    margin-right: 1.25rem;
+}
+.contain .user h4{
+    font-size: 1.25rem;
+    color: #333;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.footer-container h4{
+    color: #333;
+    font-size: 1.25rem;
+    padding: 1.25rem 0;
+}
+.footer-container a{
+    display: block;
+    color: #666;
+    font-size: .9375rem;
+    padding: .3125rem 0;
+}
+.footer-container a:hover{
+    color: var(--red);
+    text-decoration: underline;
+    transition: .5s linear;
+}
+.div4{
+    display: flex;
+    justify-content: center;
+    margin: .625rem 0;
+    padding: .3125rem 0;
+    gap: 1.25rem;
+}
+.div4 p{
+    font-size: .9375rem;
+    color: #333;
+}
